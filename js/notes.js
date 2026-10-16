@@ -23,13 +23,13 @@ window.Q_NOTES = [
    text: "One tap switches to Accessible mode, for seniors, wheelchair users and parents with strollers. Press Find gentle walk for a step-free route with the lowest slope. Here in Barcelona: gentle in green, fastest in red. Sixty percent shade, with water on the path.",
    src: [['Live product screen: Barcelona, la Marina del Prat Vermell to Iveco Goncas, Carrer dels Almogavers, 18 Oct, 13:40. Gentle walk 5.1 km, 1 h 6 m, 60% shade, 18 °C, UV 1, water on path.', 'https://greenrah.com/app']] },
  { id: 'features',
-   text: "On your route and across the map, GreenRah shows water taps and toilets, in Europe and Great Britain. In a heatwave, that is safety, not a detail. It factors in clouds, speaks English and Portuguese, and covers 28 countries and over 2,000 cities. We launched two months ago.",
+   text: "On your route and across the map, GreenRah shows water taps and toilets. In a heatwave, that is safety. It factors in clouds, speaks English and Portuguese, and covers 28 countries and over 2,000 cities.",
    src: [['Coverage (27 EU countries + Great Britain, 2,000+ cities), languages EN and PT, launch about two months ago: founder-supplied product facts.', 'https://greenrah.com/app']] },
  { id: 'people',
    text: "It is for everyone who walks: commuters, tourists, seniors, parents, disabled people, and runners.",
    src: [] },
  { id: 'competition',
-   text: "Some apps show shade. Some show weather. Only GreenRah uses both to choose your route. ALKOO by NAVITIME has shade routes, a shade rate, water spots and cooling shelters. Forecasts and elevation are on Premium. Komoot Premium has route weather, surface type and an elevation profile, but no shade routing. Both inform the user. GreenRah changes the route.",
+   text: "Some apps show shade. Some show weather. Only GreenRah uses both. ALKOO by NAVITIME has shade routes, a shade rate, water spots and cooling shelters. Forecasts and elevation are on Premium. Komoot Premium has route weather, surface type and an elevation profile, but no shade routing. Both inform the user. GreenRah changes the route.",
    src: [
      ['ShadeMap: a toolkit to simulate and visualise sunlight and shadow (no walking routes listed in its features).', 'https://shademap.app/about/'],
      ['Google Maps walking directions do not offer a shade or heat option (public features, Oct 2026).', 'https://support.google.com/maps/answer/144339'],
@@ -37,10 +37,13 @@ window.Q_NOTES = [
      ['Shade route, shade rate, water spots and cooling shelters: BabyTech.jp review, 31 Jul 2025.', 'https://babytech.jp/en/2025/07/ogamari70/'],
      ['Komoot Premium: weather on route, plus surface type and an elevation profile. No shade routing (public features, Oct 2026).', 'https://www.komoot.com/premium']
    ] },
- { id: 'business',
-   text: "Six questions for a mayor. Where is it too hot? Where do people walk? Do they choose the cool route? Service gaps: water, green space, GIRA bikes beyond 400 metres. Who is left out, by freguesia? Did the project help? That is next. Walking trips, not surveys. A 24-hour delay. No personal data. Consultant heat studies cost 15 to 80 thousand euros and are old on arrival. The City pack is 6,000 euros a year and updates daily. Example: people avoid the street from one to five, so a shop open until seven only gets the last two hours.",
-   src: [['City Insights figures, the EUR 6,000 City pack, and the EUR 15,000 to 80,000 consultant comparison are the founder\u2019s pitch, not a published price list. The shop line is an example, not measured data. Company: Greenrah OÜ, Tallinn, Estonia (registry code 17586990).', 'https://greenrah.com']] },
+ { id: 'insights',
+   text: "Six questions for a mayor. Where is walking too hot, and when? Where do people actually walk? Do they choose cooler routes on heatwave days? Where are the gaps in water, toilets, shade and green space? Which neighbourhoods are left out? Did a shade project help? Use it to plan trees, support shops on hot streets, and measure impact. Aggregated and anonymous. No personal data.",
+   src: [['City Insights questions are the product pitch. Figures are not shown on this slide. Company: Greenrah OÜ, Tallinn, Estonia (registry code 17586990).', 'https://greenrah.com']] },
+ { id: 'model',
+   text: "The app is free, with no ads. Premium is one euro ninety-nine a month: steps and kilometres. City Insights is six thousand euros per city per year. Consultant heat studies cost fifteen to eighty thousand, and they are old on arrival. Live now: web app and Android, across Europe and Great Britain, over two thousand cities. iPhone is coming.",
+   src: [['EUR 1.99 Premium, EUR 6,000 City Insights and the EUR 15,000 to 80,000 consultant range are the founder\u2019s pitch, not a published price list. Coverage: founder-supplied.', 'https://greenrah.com']] },
  { id: 'close',
-   text: "GreenRah is live today. We're looking for two kinds of partners: cities that want a six-month pilot, and investors who want to help us grow. Scan the code, or find me after this talk.",
-   src: [['Web app', 'https://greenrah.com/app'], ['Android app on Google Play', 'https://play.google.com/store/apps/details?id=com.greenrah.app'], ['Email', 'mailto:contact@greenrah.com?subject=GreenRah%20pilot']] }
+   text: "I'm Yousef. GreenRah is live across the EU and Great Britain. The next city can be yours. Scan the code, or find me after this talk.",
+   src: [['QR code', 'https://greenrah.com/?utm_source=pitch&utm_medium=deck&utm_campaign=q'], ['Android app on Google Play', 'https://play.google.com/store/apps/details?id=com.greenrah.app'], ['Email', 'mailto:contact@greenrah.com']] }
 ];

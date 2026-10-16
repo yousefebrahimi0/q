@@ -2,7 +2,7 @@
 
 Speaker: Yousef (Joseph A), founder. Audience: investors, the public, urban mobility and city partners.
 
-**Spoken words: 449** (about 3:00 at 150 words a minute). The deck auto-advance (press A) always takes 180 s and splits that time by these word counts.
+**Spoken words: 449** across 11 slides (about 3:00 at 150 words a minute). The deck auto-advance (press A) always takes 180 s and splits that time by these word counts.
 
 ## 1. Hook  (44 words, about 18 s)
 
@@ -40,9 +40,9 @@ One tap switches to Accessible mode, for seniors, wheelchair users and parents w
 Sources:
 - Live product screen: Barcelona, la Marina del Prat Vermell to Iveco Goncas, Carrer dels Almogavers, 18 Oct, 13:40. Gentle walk 5.1 km, 1 h 6 m, 60% shade, 18 °C, UV 1, water on path.: https://greenrah.com/app
 
-## 6. Features  (48 words, about 19 s)
+## 6. Features  (35 words, about 14 s)
 
-On your route and across the map, GreenRah shows water taps and toilets, in Europe and Great Britain. In a heatwave, that is safety, not a detail. It factors in clouds, speaks English and Portuguese, and covers 28 countries and over 2,000 cities. We launched two months ago.
+On your route and across the map, GreenRah shows water taps and toilets. In a heatwave, that is safety. It factors in clouds, speaks English and Portuguese, and covers 28 countries and over 2,000 cities.
 
 Sources:
 - Coverage (27 EU countries + Great Britain, 2,000+ cities), languages EN and PT, launch about two months ago: founder-supplied product facts.: https://greenrah.com/app
@@ -51,9 +51,9 @@ Sources:
 
 It is for everyone who walks: commuters, tourists, seniors, parents, disabled people, and runners.
 
-## 8. Competition  (58 words, about 23 s)
+## 8. Competition  (54 words, about 22 s)
 
-Some apps show shade. Some show weather. Only GreenRah uses both to choose your route. ALKOO by NAVITIME has shade routes, a shade rate, water spots and cooling shelters. Forecasts and elevation are on Premium. Komoot Premium has route weather, surface type and an elevation profile, but no shade routing. Both inform the user. GreenRah changes the route.
+Some apps show shade. Some show weather. Only GreenRah uses both. ALKOO by NAVITIME has shade routes, a shade rate, water spots and cooling shelters. Forecasts and elevation are on Premium. Komoot Premium has route weather, surface type and an elevation profile, but no shade routing. Both inform the user. GreenRah changes the route.
 
 Sources:
 - ShadeMap: a toolkit to simulate and visualise sunlight and shadow (no walking routes listed in its features).: https://shademap.app/about/
@@ -63,21 +63,28 @@ Sources:
 - Forecasts and elevation on ALKOO Premium are the comparison used on this slide (public features, Oct 2026), not a quoted price page.
 - Komoot Premium: weather on route, plus surface type and an elevation profile. No shade routing (public features, Oct 2026).: https://www.komoot.com/premium
 
-## 9. City Insights  (99 words, about 40 s)
+## 9. City Insights  (65 words, about 26 s)
 
-Six questions for a mayor. Where is it too hot? Where do people walk? Do they choose the cool route? Service gaps: water, green space, GIRA bikes beyond 400 metres. Who is left out, by freguesia? Did the project help? That is next. Walking trips, not surveys. A 24-hour delay. No personal data. Consultant heat studies cost 15 to 80 thousand euros and are old on arrival. The City pack is 6,000 euros a year and updates daily. Example: people avoid the street from one to five, so a shop open until seven only gets the last two hours.
-
-Sources:
-- City Insights figures (82%, 38% mean shade, mean peak UTCI 28.4, 18%, −8.7 pts), the EUR 6,000 City pack, and the EUR 15,000 to 80,000 consultant comparison are the founder’s pitch, spoken only, not a published price list. The shop line and the tree-street list are examples. Company: Greenrah OÜ, Tallinn, Estonia (registry code 17586990).: https://greenrah.com
-
-## 10. Close and call to action  (34 words, about 14 s)
-
-GreenRah is live today. We're looking for two kinds of partners: cities that want a six-month pilot, and investors who want to help us grow. Scan the code, or find me after this talk.
+Six questions for a mayor. Where is walking too hot, and when? Where do people actually walk? Do they choose cooler routes on heatwave days? Where are the gaps in water, toilets, shade and green space? Which neighbourhoods are left out? Did a shade project help? Use it to plan trees, support shops on hot streets, and measure impact. Aggregated and anonymous. No personal data.
 
 Sources:
-- Web app: https://greenrah.com/app
+- City Insights questions are the product pitch. Figures are not shown on this slide. Company: Greenrah OÜ, Tallinn, Estonia (registry code 17586990).: https://greenrah.com
+
+## 10. Business model  (59 words, about 24 s)
+
+The app is free, with no ads. Premium is one euro ninety-nine a month: steps and kilometres. City Insights is six thousand euros per city per year. Consultant heat studies cost fifteen to eighty thousand, and they are old on arrival. Live now: web app and Android, across Europe and Great Britain, over two thousand cities. iPhone is coming.
+
+Sources:
+- EUR 1.99 Premium, EUR 6,000 City Insights and the EUR 15,000 to 80,000 consultant range are the founder’s pitch, not a published price list. Coverage: founder-supplied.: https://greenrah.com
+
+## 11. Close  (26 words, about 10 s)
+
+I'm Yousef. GreenRah is live across the EU and Great Britain. The next city can be yours. Scan the code, or find me after this talk.
+
+Sources:
+- QR code: https://greenrah.com/?utm_source=pitch&utm_medium=deck&utm_campaign=q
 - Android app on Google Play: https://play.google.com/store/apps/details?id=com.greenrah.app
-- Email: mailto:contact@greenrah.com?subject=GreenRah%20pilot
+- Email: mailto:contact@greenrah.com
 
 ## Fact check notes
 
@@ -86,6 +93,6 @@ Sources:
 - 65+ share: 22.0% of the EU-27 population on 1 Jan 2025 (Eurostat). It is an EU figure, not all of Europe.
 - Hot days: EEA says days above 30 °C are expected to double (RCP4.5) and almost quadruple (RCP8.5) during the 21st century.
 - Product facts (5 layers, 28 countries, 2,000+ cities, EN/PT, launch ~2 months ago, water/WC, clouds) are founder-supplied, not independently verified.
-- City Insights numbers on the slide, the EUR 6,000 City pack, and the EUR 15,000 to 80,000 consultant range are spoken pitch, not a published study or price list.
-- The shop line (people avoid the street from one to five) is one spoken example, not a measured statistic. The tree-street list on the slide is labelled example.
+- EUR 1.99 Premium, EUR 6,000 per city per year, and the EUR 15,000 to 80,000 consultant range are spoken on the business-model slide. They are the founder’s pitch, not a published price list.
+- City Insights on the slide is a list of questions, with no measured figures.
 - Name: the brief writes both Yusef and Yousef; the deck and script use Yousef (as on /g and GitHub).
