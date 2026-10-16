@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07130b">
+<title>GreenRah: The cooler way. 3-minute pitch</title>
+<link rel="icon" href="assets/greenrah-icon.png">
+<link rel="stylesheet" href="css/q.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i id="bar"></i></div>
+<main id="deck" aria-roledescription="presentation" aria-label="GreenRah 3-minute pitch">
+
+<!-- 1 HOOK -->
+<section class="slide s-hook" data-id="hook" aria-label="Hook">
+  <div class="sun" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="kicker r1"><img src="assets/greenrah-icon.png" alt="" class="mini-logo"> GreenRah</p>
+    <h1 class="r2">Winter is coming.<br><span class="hot">But let's talk about heat.</span></h1>
+    <div class="stats">
+      <div class="stat r3"><b class="count" data-to="62775">62,775</b><span>estimated heat-related deaths in Europe, summer 2024</span><small>Nature Medicine, 2025 · 32 countries</small></div>
+      <div class="stat r4"><b class="count" data-to="22" data-suffix="%">22%</b><span>of people in the EU are 65 or older</span><small>Eurostat, 1 Jan 2025</small></div>
+      <div class="stat r5"><b>2× to ~4×</b><span>more hot days (above 30&nbsp;°C) by 2100, by emissions path</span><small>European Environment Agency</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 PROBLEM -->
+<section class="slide s-problem" data-id="problem" aria-label="Problem">
+  <div class="wrap grid2">
+    <div>
+      <p class="kicker r1">The problem</p>
+      <h2 class="r2">Imagine you travel to <span class="cycle"><span>Barcelona.</span><span>the Algarve.</span><span>Rome.</span></span></h2>
+      <p class="lead r3">Your map shows the fastest way. Not the weather. Not the sun hours. Not the shade.</p>
+      <ul class="xlist r4">
+        <li><i class="x">✕</i> Weather</li><li><i class="x">✕</i> Sun hours</li><li><i class="x">✕</i> Shade</li>
+      </ul>
+    </div>
+    <div class="maps-card r3" aria-hidden="true">
+      <svg viewBox="0 0 400 300" class="mapsvg">
+        <rect width="400" height="300" fill="#e9ece4"/>
+        <g fill="#d6dccf"><rect x="20" y="20" width="90" height="70" rx="6"/><rect x="130" y="20" width="110" height="70" rx="6"/><rect x="260" y="20" width="120" height="70" rx="6"/><rect x="20" y="110" width="90" height="80" rx="6"/><rect x="260" y="110" width="120" height="80" rx="6"/><rect x="20" y="210" width="90" height="70" rx="6"/><rect x="130" y="210" width="110" height="70" rx="6"/><rect x="260" y="210" width="120" height="70" rx="6"/></g>
+        <rect x="130" y="110" width="110" height="80" rx="6" fill="#cfe4c5"/>
+        <path class="draw" d="M40 250 L120 250 L120 100 L250 100 L250 40 L360 40" fill="none" stroke="#4285f4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="40" cy="250" r="9" fill="#fff" stroke="#4285f4" stroke-width="4"/><circle cx="360" cy="40" r="10" fill="#ea4335"/>
+        <g class="suns"><circle cx="120" cy="175" r="14" fill="#f4b63f"/><circle cx="185" cy="100" r="14" fill="#f4b63f"/><circle cx="305" cy="40" r="14" fill="#f4b63f"/></g>
+      </svg>
+      <div class="pill"><b>Fastest</b> · the shortest line on the map</div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 SOLUTION / ENGINE -->
+<section class="slide s-engine" data-id="engine" aria-label="Solution">
+  <div class="wrap grid2">
+    <div>
+      <p class="kicker r1">The solution</p>
+      <h2 class="r2">Not the fastest way.<br><span class="cool">The coolest way.</span></h2>
+      <p class="lead r3">The GreenRah comfort engine combines five layers into one comfort score and a shade list.</p>
+    </div>
+    <div class="engine" aria-label="Five layers">
+      <div class="layer l1"><span class="ic"><i class="ico" data-icon="temperature"></i></span>Live weather</div>
+      <div class="layer l2"><span class="ic"><i class="ico" data-icon="sun"></i></span>Solar position</div>
+      <div class="layer l3"><span class="ic"><i class="ico" data-icon="building"></i></span>3D building shapes</div>
+      <div class="layer l4"><span class="ic"><i class="ico" data-icon="mountain"></i></span>Elevation and street slope</div>
+      <div class="layer l5"><span class="ic"><i class="ico" data-icon="route"></i></span>Walkability network</div>
+      <div class="engine-out">
+        <div class="score"><small>Comfort score</small><b>82</b></div>
+        <div class="shade-list"><small>Shade list</small><i style="--w:72%"></i><i style="--w:54%"></i><i style="--w:88%"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 HEAT SMART: LISBON -->
+<section class="slide s-heat" data-id="heatsmart" aria-label="Heat smart demo, Lisbon">
+  <div class="wrap demo">
+    <div class="demo-copy">
+      <p class="kicker r1">Heat smart</p>
+      <h2 class="r2">A to B. Pick a day and an hour. <span class="cool">Get the coolest walk.</span></h2>
+      <p class="meta r3">Lisbon · Igreja do Menino Deus → 15 Travessa do Barbosa · 19 Oct, 13:55</p>
+      <ul class="legend r4"><li><i class="ln green"></i>Coolest</li><li><i class="ln red"></i>Fastest</li><li><i class="pin-ic">WC</i>Public toilet</li><li><i class="pin-ic water"><i class="ico" data-icon="droplet"></i></i>Water tap</li></ul>
+    </div>
+    <div class="stage3d r3">
+      <div class="kb">
+        <img class="shot" src="assets/app/lisbon-3d-base.webp" alt="GreenRah 3D view of Lisbon: coolest and fastest walks with toilet pins" data-fallback="lisbon">
+        <svg class="overlay" viewBox="0 0 573 946" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <mask id="mask-lisbon" maskUnits="userSpaceOnUse" x="0" y="0" width="573" height="946">
+              <path class="route red" pathLength="1" d="M 216 848 L 208 820 L 88 699 L 91 676 L 112 640 L 123 589 L 112 538 L 202 448 L 181 367 L 204 289 L 195 211 L 208 161 L 241 122"/>
+              <path class="route green" pathLength="1" d="M 243 835 L 254 801 L 214 758 L 236 660 L 242 570 L 291 481 L 332 419 L 350 392 L 382 338 L 368 296 L 298 212 L 295 195 L 223 89 L 189 21"/>
+            </mask>
+          </defs>
+          <image href="assets/app/lisbon-3d.webp" width="573" height="946" mask="url(#mask-lisbon)"/>
+          <circle cx="228" cy="852" r="11" class="dot a"/><circle cx="226" cy="108" r="11" class="dot b"/>
+        </svg>
+        <div class="pins">
+          <span class="pin wc" style="--x:45.5%;--y:71.4%;--d:0">WC</span>
+          <span class="pin wc" style="--x:28.7%;--y:53.1%;--d:1">WC</span>
+          <span class="pin wc" style="--x:58.1%;--y:42.3%;--d:2">WC</span>
+          <span class="pin wc" style="--x:35.5%;--y:26.8%;--d:3">WC</span>
+        </div>
+      </div>
+      <div class="chip-float"><b class="cool">Coolest</b> · more shade at 13:55</div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 ACCESSIBLE: KEY DEMO -->
+<section class="slide s-access" data-id="accessible" aria-label="Accessible mode demo, Barcelona">
+  <div class="wrap demo">
+    <div class="demo-copy">
+      <p class="kicker r1 kick-access">Accessible mode</p>
+      <h2 class="r2">For seniors, wheelchairs and strollers: <span class="access">find a gentle walk.</span></h2>
+      <p class="meta r3">Barcelona · la Marina del Prat Vermell → Iveco Goncas, Carrer dels Almogavers · 18 Oct, 13:40</p>
+      <ul class="legend r4"><li><i class="ln green"></i>Gentle: step-free, lowest slope</li><li><i class="ln red"></i>Fastest</li></ul>
+      <button class="replay" type="button" data-replay>↻ Replay demo</button>
+    </div>
+    <div class="duo">
+      <!-- Phone: live HTML rebuild of the GreenRah Plan panel -->
+      <div class="phone" aria-label="GreenRah Plan panel switching from Heat smart to Accessible">
+        <div class="screen">
+          <div class="statusbar"><span>13:40</span><span>●●● ▮</span></div>
+          <div class="plan">
+            <div class="plan-head"><img src="assets/greenrah-icon.png" alt=""><b>Plan your walk</b></div>
+            <small class="lbl">Routing mode</small>
+            <div class="seg"><i class="knob"></i><span class="opt o1"><i class="ico" data-icon="sun"></i> Heat smart</span><span class="opt o2"><i class="ico" data-icon="accessible"></i> Accessible</span></div>
+            <p class="hint"><span class="h1">Coolest vs fastest using shade, UTCI and sun exposure.</span><span class="h2">Step-free routes with the lowest slope.</span></p>
+            <div class="field"><i class="fd"></i><small>From</small>la Marina del Prat Vermell</div>
+            <div class="field"><i class="fd to"></i><small>To</small>Iveco Goncas, C. dels Almogavers</div>
+            <div class="dt"><small>Date &amp; time</small><b>18 Oct · 13:40</b></div>
+            <div class="days"><span>Fr<br>16</span><span>Sa<br>17</span><span class="on">Su<br>18</span><span>Mo<br>19</span><span>Tu<br>20</span></div>
+            <div class="shadow-time"><small>Shadow time</small><b>13:40</b><i class="track"><i class="thumb"></i></i><span>00:00</span><span>12:00</span><span>24:00</span></div>
+            <button class="go" type="button" tabindex="-1"><span class="g1">▷ Find coolest walk</span><span class="g2">▷ Find gentle walk</span><i class="spin"></i></button>
+          </div>
+          <div class="finger" aria-hidden="true"></div>
+        </div>
+      </div>
+      <!-- Result -->
+      <div class="result" aria-label="Barcelona result: gentle versus fastest">
+        <div class="kb kb2">
+          <img class="shot" src="assets/app/barcelona-3d-base.webp" alt="GreenRah 3D view of Barcelona: gentle and fastest walks" data-fallback="barcelona">
+          <svg class="overlay" viewBox="0 0 568 796" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <mask id="mask-barcelona" maskUnits="userSpaceOnUse" x="0" y="0" width="568" height="796">
+                <path class="route red" pathLength="1" d="M 236 713 L 240 442 L 226 384 L 198 336 L 148 326 L 97 295 L 90 247 L 147 174 L 113 96 L 141 66"/>
+                <path class="route green" pathLength="1" d="M 243 713 L 243 659 L 254 597 L 254 452 L 272 434 L 371 375 L 433 295 L 490 264 L 499 202 L 482 190 L 424 163 L 306 153 L 286 131 L 199 123 L 188 72 L 163 59"/>
+              </mask>
+            </defs>
+            <image href="assets/app/barcelona-3d.webp" width="568" height="796" mask="url(#mask-barcelona)"/>
+            <circle cx="240" cy="728" r="11" class="dot a"/><circle cx="152" cy="50" r="11" class="dot b"/>
+          </svg>
+          <div class="pins"><span class="pin water" style="--x:45%;--y:58%;--d:0"><i class="ico" data-icon="droplet"></i></span><span class="pin water" style="--x:80%;--y:34%;--d:1"><i class="ico" data-icon="droplet"></i></span></div>
+        </div>
+        <div class="rcard">
+          <div class="rtop"><span class="tag"><i class="ico" data-icon="accessible"></i> Gentle</span><span class="wx">18 °C · UV 1</span></div>
+          <div class="rnums"><b>5.1 km</b><b>1 h 6 m</b><b>60% shade</b></div>
+          <div class="rwater"><i class="ico" data-icon="droplet"></i> Water on the path</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 FEATURES -->
+<section class="slide s-features" data-id="features" aria-label="Features">
+  <div class="wrap grid2">
+    <div>
+      <p class="kicker r1">Built for summer</p>
+      <h2 class="r2">Water and toilets, <span class="cool">on your route and across the map.</span></h2>
+      <p class="lead r3">In a heatwave, a drinking tap is not a detail. It is safety. GreenRah shows taps and WCs across Europe and Great Britain, and it factors in clouds too.</p>
+      <div class="facts r4">
+        <div><b class="count" data-to="28">28</b><span>countries</span></div>
+        <div><b class="count" data-to="2000" data-suffix="+">2,000+</b><span>cities</span></div>
+        <div><b>EN · PT</b><span>languages</span></div>
+        <div><b>~2</b><span>months live</span></div>
+      </div>
+    </div>
+    <div class="phone phone-real r3">
+      <div class="screen"><img src="assets/screen-android.webp" alt="GreenRah on Android: route options with a public toilet on the path, walk score and shade coverage"></div>
+      <span class="pin big wc" style="--x:84%;--y:50%;--d:0">WC</span>
+      <span class="pin big water" style="--x:12%;--y:30%;--d:1"><i class="ico" data-icon="droplet"></i></span>
+    </div>
+  </div>
+</section>
+
+<!-- 7 FOR EVERYONE -->
+<section class="slide s-people" data-id="people" aria-label="Who it is for">
+  <div class="wrap">
+    <p class="kicker r1">For everyone who walks</p>
+    <h2 class="r2">One app. <span class="cool">Every kind of walker.</span></h2>
+    <ul class="people">
+      <li><span><i class="ico" data-icon="walk"></i></span>Walkers</li><li><span><i class="ico" data-icon="luggage"></i></span>Tourists</li><li><span><i class="ico" data-icon="old"></i></span>Seniors</li>
+      <li><span><i class="ico" data-icon="baby-carriage"></i></span>Parents</li><li><span><i class="ico" data-icon="wheelchair"></i></span>Disabled people</li><li><span><i class="ico" data-icon="heartbeat"></i></span>Runners</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 8 COMPETITION -->
+<section class="slide s-comp" data-id="competition" aria-label="Competition">
+  <div class="wrap">
+    <p class="kicker r1">Competition</p>
+    <h2 class="r2">We're not the first. <span class="cool">We add the weather and the route.</span></h2>
+    <div class="table r3" role="table">
+      <div class="tr th" role="row"><span role="columnheader"></span><span role="columnheader">Google Maps</span><span role="columnheader">ShadeMap</span><span role="columnheader" class="us">GreenRah</span></div>
+      <div class="tr" role="row"><span role="cell">Walking route</span><span role="cell" class="y">✓</span><span role="cell" class="n">✕</span><span role="cell" class="y us">✓</span></div>
+      <div class="tr" role="row"><span role="cell">Shade and sun</span><span role="cell" class="n">✕</span><span role="cell" class="y">✓ shadows only</span><span role="cell" class="y us">✓</span></div>
+      <div class="tr" role="row"><span role="cell">Live weather in the route</span><span role="cell" class="n">✕</span><span role="cell" class="n">✕</span><span role="cell" class="y us">✓</span></div>
+      <div class="tr" role="row"><span role="cell">Gentle, step-free walk</span><span role="cell" class="n">✕</span><span role="cell" class="n">✕</span><span role="cell" class="y us">✓</span></div>
+    </div>
+    <p class="foot r4">Built for drivers, Google Maps ignores shade and route stress. ShadeMap shows shadows but does not route. Based on public features, Oct 2026.</p>
+  </div>
+</section>
+
+<!-- 9 BUSINESS -->
+<section class="slide s-biz" data-id="business" aria-label="Business model">
+  <div class="wrap grid2">
+    <div>
+      <p class="kicker r1">Business model</p>
+      <h2 class="r2">Free to walk. <span class="cool">Cities pay for insight.</span></h2>
+      <div class="plans r3">
+        <div class="plan-card"><b>Free</b><span>No ads. Every walk.</span><em class="live">Live</em></div>
+        <div class="plan-card"><b>€1.99 / mo</b><span>Health: steps, km</span><em>Planned</em></div>
+        <div class="plan-card main"><b>City Insights</b><span>Dashboard for mayors and decision makers</span><em>Main business</em></div>
+      </div>
+      <p class="foot r4"><i class="ico" data-icon="shield-check"></i> Estonian company · strict GDPR compliance</p>
+    </div>
+    <div class="dash r3" aria-label="City Insights example">
+      <div class="dash-head"><b>City Insights</b><small>example</small></div>
+      <ul class="dash-list"><li><i class="ico" data-icon="trees"></i> Where to plant trees</li><li><i class="ico" data-icon="walk"></i> Where people walk for shade</li><li><i class="ico" data-icon="coin-euro"></i> How heat hurts local shops</li></ul>
+      <div class="shopday">
+        <small>A shop open 09:00 to 19:00, on a hot summer day</small>
+        <div class="hours"><i style="--s:0;--e:4" class="ok"></i><i style="--s:4;--e:8" class="avoid"></i><i style="--s:8;--e:10" class="ok2"></i></div>
+        <div class="ticks"><span>09</span><span>13</span><span>17</span><span>19</span></div>
+        <p>People avoid 13:00 to 17:00. Afternoon customers only come <b>17:00 to 19:00</b>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 CLOSE -->
+<section class="slide s-close" data-id="close" aria-label="Founder and call to action">
+  <div class="wrap grid2">
+    <div>
+      <div class="founder r1"><img src="assets/yousef-320.jpg" alt="Yousef Ebrahimi"><div><b>Yousef Ebrahimi</b><span>Founder · data analyst<br>10 years in digital marketing, SEO and data analytics</span></div></div>
+      <h2 class="r2">Install it free.<br><span class="cool">The cooler way.</span></h2>
+      <div class="ctas r3">
+        <a class="cta" href="https://greenrah.com/app" target="_blank" rel="noopener"><i class="ico" data-icon="world"></i> Web app · greenrah.com/app <em class="live">Live</em></a>
+        <a class="cta" href="https://play.google.com/store/apps/details?id=com.greenrah.app" target="_blank" rel="noopener"><i class="ico" data-icon="brand-android"></i> Android · Google Play <em class="live">Live</em></a>
+        <span class="cta muted"><i class="ico" data-icon="brand-apple"></i> iPhone <em>Very soon</em></span>
+      </div>
+      <p class="partners r4">Urban mobility teams and cities: <b>let's run a pilot together.</b></p>
+    </div>
+    <div class="qr-box r3"><div id="qr" aria-label="QR code to greenrah.com/app"></div><small>Scan to open GreenRah</small><img src="assets/greenrah-logo-dark.png" alt="GreenRah" class="logo-full"></div>
+  </div>
+</section>
+
+</main>
+
+<!-- HUD -->
+<nav class="hud" id="hud" aria-label="Controls">
+  <button type="button" data-act="prev" aria-label="Previous">‹</button>
+  <span id="count">1 / 10</span>
+  <button type="button" data-act="next" aria-label="Next">›</button>
+  <button type="button" data-act="auto" id="autoBtn" aria-pressed="false" title="Auto-advance, about 3 minutes (A)">▶ 3:00</button>
+  <button type="button" data-act="notes" title="Speaker notes (N)">N</button>
+  <button type="button" data-act="full" title="Fullscreen (F)">⤢</button>
+</nav>
+<aside class="notes" id="notes" hidden aria-label="Speaker notes">
+  <div class="notes-head"><b>Speaker notes</b><span id="noteMeta"></span><button type="button" data-act="notes" aria-label="Close notes">✕</button></div>
+  <p id="noteText"></p>
+  <ol id="noteSrc" class="src"></ol>
+</aside>
+<div class="help" id="help" hidden><b>Keys</b> → / Space next · ← back · N notes · A auto 3:00 · F fullscreen · R replay demo · Home / End · ? help</div>
+<noscript><p class="noscript">This deck needs JavaScript.</p></noscript>
+<script src="js/qrcode.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/q.js"></script>
+</body>
+</html>
