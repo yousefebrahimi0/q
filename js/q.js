@@ -181,8 +181,8 @@
 
   /* QR to the web app (UTM tagged like /g) */
   try {
-    var qr = window.qrcode(0, 'M'); qr.addData('https://greenrah.com/app?utm_source=pitch&utm_medium=deck&utm_campaign=q'); qr.make();
-    $('#qr').innerHTML = qr.createSvgTag(6, 0, 'QR code to greenrah.com/app');
+    var qr = window.qrcode(0, 'M'); qr.addData('mailto:contact@greenrah.com?subject=GreenRah%20pilot'); qr.make();
+    $('#qr').innerHTML = qr.createSvgTag(6, 0, 'QR code to email contact@greenrah.com');
   } catch (err) { /* QR is optional */ }
 
   /* Path tracing helper: open with ?trace, click on a demo image, copy the path from the console */

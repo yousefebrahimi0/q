@@ -19,11 +19,10 @@
   <div class="sun" aria-hidden="true"></div>
   <div class="wrap">
     <p class="kicker r1"><img src="assets/greenrah-icon.png" alt="" class="mini-logo"> GreenRah</p>
-    <h1 class="r2">Winter is coming.<br><span class="hot">But let's talk about heat.</span></h1>
-    <div class="stats">
-      <div class="stat r3"><b class="count" data-to="62775">62,775</b><span>estimated heat-related deaths in Europe, summer 2024</span><small>Nature Medicine, 2025 · 32 countries</small></div>
-      <div class="stat r4"><b class="count" data-to="22" data-suffix="%">22%</b><span>of people in the EU are 65 or older</span><small>Eurostat, 1 Jan 2025</small></div>
-      <div class="stat r5"><b>2× to ~4×</b><span>more hot days (above 30&nbsp;°C) by 2100, by emissions path</span><small>European Environment Agency</small></div>
+    <h1 class="r2">Heat killed an estimated 62,775 people in Europe in summer 2024.<br><span class="hot">Maps cannot see it.</span></h1>
+    <div class="stats stats-two">
+      <div class="stat r3"><b class="count" data-to="22" data-suffix="%">22%</b><span>of people in the EU are 65 or older</span><small>Eurostat, 1 Jan 2025</small></div>
+      <div class="stat r4"><b>2× to ~4×</b><span>more hot days (above 30&nbsp;°C) by 2100, by emissions path</span><small>European Environment Agency</small></div>
     </div>
   </div>
 </section>
@@ -203,58 +202,128 @@
 <section class="slide s-comp" data-id="competition" aria-label="Competition">
   <div class="wrap">
     <p class="kicker r1">Competition</p>
-    <h2 class="r2">We're not the first. <span class="cool">We add the weather and the route.</span></h2>
-    <div class="table r3" role="table">
-      <div class="tr th" role="row"><span role="columnheader"></span><span role="columnheader">Google Maps</span><span role="columnheader">ShadeMap</span><span role="columnheader" class="us">GreenRah</span></div>
-      <div class="tr" role="row"><span role="cell">Walking route</span><span role="cell" class="y">✓</span><span role="cell" class="n">✕</span><span role="cell" class="y us">✓</span></div>
-      <div class="tr" role="row"><span role="cell">Shade and sun</span><span role="cell" class="n">✕</span><span role="cell" class="y">✓ shadows only</span><span role="cell" class="y us">✓</span></div>
-      <div class="tr" role="row"><span role="cell">Live weather in the route</span><span role="cell" class="n">✕</span><span role="cell" class="n">✕</span><span role="cell" class="y us">✓</span></div>
-      <div class="tr" role="row"><span role="cell">Gentle, step-free walk</span><span role="cell" class="n">✕</span><span role="cell" class="n">✕</span><span role="cell" class="y us">✓</span></div>
+    <h2 class="r2 comp-title"><span class="full">Some apps show shade. Some show weather. <span class="cool">Only GreenRah uses both to choose your route.</span></span><span class="short">Only GreenRah uses shade and weather <span class="cool">to choose your route.</span></span></h2>
+    <div class="cmp-scroll r3">
+      <div class="cmp" role="table" aria-label="How walking apps compare">
+        <div class="tr th" role="row">
+          <span role="columnheader"></span>
+          <span role="columnheader">Google Maps</span>
+          <span role="columnheader">ShadeMap</span>
+          <span role="columnheader">ALKOO</span>
+          <span role="columnheader">Komoot</span>
+          <span role="columnheader" class="us"><i class="ico" data-icon="leaf"></i> GreenRah</span>
+        </div>
+        <div class="tr" role="row">
+          <span role="cell">Walking route</span>
+          <span role="cell" class="y">✓</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="y">✓</span>
+          <span role="cell" class="y">✓</span>
+          <span role="cell" class="y us">✓</span>
+        </div>
+        <div class="tr" role="row">
+          <span role="cell">Shade &amp; sun</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="part"><i class="ring" aria-hidden="true"></i><small>shadows only</small></span>
+          <span role="cell" class="y">✓</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="y us">✓</span>
+        </div>
+        <div class="tr" role="row">
+          <span role="cell">Weather changes route</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="part"><i class="ring" aria-hidden="true"></i><small>info only</small></span>
+          <span role="cell" class="part"><i class="ring" aria-hidden="true"></i><small>info only</small></span>
+          <span role="cell" class="y us">✓</span>
+        </div>
+        <div class="tr" role="row">
+          <span role="cell">Gentle, step-free</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="no">✕</span>
+          <span role="cell" class="part"><i class="ring" aria-hidden="true"></i><small>graph only</small></span>
+          <span role="cell" class="part"><i class="ring" aria-hidden="true"></i><small>profile only</small></span>
+          <span role="cell" class="y us">✓</span>
+        </div>
+      </div>
     </div>
-    <p class="foot r4">Built for drivers, Google Maps ignores shade and route stress. ShadeMap shows shadows but does not route. Based on public features, Oct 2026.</p>
+    <p class="foot r4">Shade apps show shade. Weather apps show forecasts. Only GreenRah uses both to choose the route. Based on public features, Oct 2026.</p>
   </div>
 </section>
 
 <!-- 9 BUSINESS -->
-<section class="slide s-biz" data-id="business" aria-label="Business model">
-  <div class="wrap grid2">
+<section class="slide s-biz" data-id="business" aria-label="City Insights">
+  <div class="wrap insights">
     <div>
-      <p class="kicker r1">Business model</p>
-      <h2 class="r2">Free to walk. <span class="cool">Cities pay for insight.</span></h2>
-      <div class="plans r3">
-        <div class="plan-card"><b>Free</b><span>No ads. Every walk.</span><em class="live">Live</em></div>
-        <div class="plan-card"><b>€1.99 / mo</b><span>Health: steps, km</span><em>Planned</em></div>
-        <div class="plan-card main"><b>City Insights</b><span>Dashboard for mayors and decision makers</span><em>Main business</em></div>
+      <p class="kicker r1">City Insights</p>
+      <h2 class="r2">City Insights: where it's hot, where people walk, where to act.</h2>
+      <div class="kpis r3">
+        <article class="kpi"><b><span class="count" data-to="82">82</span>%</b><span>of trips chose the cool route</span></article>
+        <article class="kpi"><b>38%</b><span>mean shade on routes (mean peak UTCI 28.4)</span></article>
+        <article class="kpi"><b><span class="count" data-to="18">18</span>%</b><span>of trips asked for accessible routes</span></article>
+        <article class="kpi"><b>−8.7 pts</b><span>cool-route share on heatwave days</span></article>
       </div>
-      <p class="foot r4"><i class="ico" data-icon="shield-check"></i> Estonian company · strict GDPR compliance</p>
+      <p class="foot r4">From walking trips, not surveys. 24-hour delay. No personal data. Cells ≥15 users.</p>
     </div>
-    <div class="dash r3" aria-label="City Insights example">
-      <div class="dash-head"><b>City Insights</b><small>example</small></div>
-      <ul class="dash-list"><li><i class="ico" data-icon="trees"></i> Where to plant trees</li><li><i class="ico" data-icon="walk"></i> Where people walk for shade</li><li><i class="ico" data-icon="coin-euro"></i> How heat hurts local shops</li></ul>
-      <div class="shopday">
-        <small>A shop open 09:00 to 19:00, on a hot summer day</small>
-        <div class="hours"><i style="--s:0;--e:4" class="ok"></i><i style="--s:4;--e:8" class="avoid"></i><i style="--s:8;--e:10" class="ok2"></i></div>
-        <div class="ticks"><span>09</span><span>13</span><span>17</span><span>19</span></div>
-        <p>People avoid 13:00 to 17:00. Afternoon customers only come <b>17:00 to 19:00</b>.</p>
+    <div class="citypanel r3" aria-label="Stylized Lisbon demand map, example">
+      <div class="tabs" role="tablist" aria-label="City Insights views">
+        <span role="tab" aria-selected="true">Mayor</span>
+        <span role="tab" aria-selected="false">Climate</span>
+        <span role="tab" aria-selected="false">Mobility</span>
       </div>
+      <div class="maprow">
+        <svg class="lisbon" viewBox="0 0 320 250" role="img" aria-label="Stylized Lisbon: green cells show where people walk">
+          <rect width="320" height="250" fill="#0c1a12"/>
+          <path d="M0 168 C40 150 70 188 120 176 C170 164 190 198 240 186 C275 178 300 196 320 188 L320 250 L0 250Z" fill="#14344c"/>
+          <path d="M0 196 C90 182 150 214 230 200 C270 194 300 208 320 204" fill="none" stroke="#2a6a90" stroke-width="3"/>
+          <g fill="#1e4a32">
+            <rect x="18" y="18" width="36" height="28" rx="5"/><rect x="60" y="18" width="36" height="28" rx="5"/><rect x="102" y="18" width="36" height="28" rx="5"/><rect x="144" y="22" width="36" height="28" rx="5"/><rect x="186" y="28" width="36" height="28" rx="5"/><rect x="228" y="36" width="36" height="28" rx="5"/>
+            <rect x="18" y="54" width="36" height="28" rx="5"/><rect x="60" y="54" width="36" height="28" rx="5"/><rect x="102" y="52" width="36" height="28" rx="5"/><rect x="144" y="56" width="36" height="28" rx="5"/><rect x="186" y="62" width="36" height="28" rx="5"/><rect x="228" y="70" width="36" height="28" rx="5"/>
+            <rect x="18" y="90" width="36" height="28" rx="5"/><rect x="60" y="90" width="36" height="28" rx="5"/><rect x="102" y="88" width="36" height="28" rx="5"/><rect x="144" y="92" width="36" height="28" rx="5"/><rect x="186" y="98" width="36" height="28" rx="5"/>
+            <rect x="22" y="126" width="36" height="28" rx="5"/><rect x="64" y="126" width="36" height="28" rx="5"/><rect x="106" y="124" width="36" height="28" rx="5"/><rect x="148" y="128" width="36" height="28" rx="5"/>
+          </g>
+          <g>
+            <rect x="102" y="52" width="36" height="28" rx="5" fill="#6fbe63"/><rect x="144" y="56" width="36" height="28" rx="5" fill="#8fd184"/><rect x="60" y="90" width="36" height="28" rx="5" fill="#3f8f4e"/><rect x="102" y="88" width="36" height="28" rx="5" fill="#6fbe63"/><rect x="144" y="92" width="36" height="28" rx="5" fill="#2f6d3c"/><rect x="64" y="126" width="36" height="28" rx="5" fill="#8fd184"/><rect x="106" y="124" width="36" height="28" rx="5" fill="#6fbe63"/>
+            <rect x="186" y="62" width="36" height="28" rx="5" fill="#e07a3d"/><rect x="228" y="70" width="36" height="28" rx="5" fill="#ef5a46"/><rect x="186" y="98" width="36" height="28" rx="5" fill="#f4b63f"/><rect x="148" y="128" width="36" height="28" rx="5" fill="#e07a3d"/>
+          </g>
+          <text x="16" y="242" fill="#9eb4c4" font-size="11" font-family="Space Grotesk, sans-serif">Tagus</text>
+          <text x="250" y="22" fill="#c5d4c4" font-size="11" font-family="Space Grotesk, sans-serif">Lisbon</text>
+        </svg>
+        <div class="plant">
+          <p>Top 5 streets to plant trees <em>example</em></p>
+          <ol>
+            <li><i class="ico" data-icon="trees"></i> Rua Augusta</li>
+            <li><i class="ico" data-icon="trees"></i> Rua da Prata</li>
+            <li><i class="ico" data-icon="trees"></i> Av. Almirante Reis</li>
+            <li><i class="ico" data-icon="trees"></i> Calçada do Combro</li>
+            <li><i class="ico" data-icon="trees"></i> Rua do Alecrim</li>
+          </ol>
+        </div>
+      </div>
+      <div class="heatkey" aria-hidden="true"><span>Walk demand</span><i class="demand"></i><span>Heat</span><i class="heat"></i></div>
     </div>
   </div>
 </section>
 
 <!-- 10 CLOSE -->
 <section class="slide s-close" data-id="close" aria-label="Founder and call to action">
-  <div class="wrap grid2">
+  <div class="wrap grid2 close-grid">
     <div>
-      <div class="founder r1"><img src="assets/yousef-320.jpg" alt="Yousef Ebrahimi"><div><b>Yousef Ebrahimi</b><span>Founder · data analyst<br>10 years in digital marketing, SEO and data analytics</span></div></div>
-      <h2 class="r2">Install it free.<br><span class="cool">The cooler way.</span></h2>
-      <div class="ctas r3">
-        <a class="cta" href="https://greenrah.com/app" target="_blank" rel="noopener"><i class="ico" data-icon="world"></i> Web app · greenrah.com/app <em class="live">Live</em></a>
-        <a class="cta" href="https://play.google.com/store/apps/details?id=com.greenrah.app" target="_blank" rel="noopener"><i class="ico" data-icon="brand-android"></i> Android · Google Play <em class="live">Live</em></a>
-        <span class="cta muted"><i class="ico" data-icon="brand-apple"></i> iPhone <em>Very soon</em></span>
+      <h2 class="r2">Live in Lisbon. <span class="cool">Ready for your city.</span></h2>
+      <div class="founder r1"><img src="assets/yousef-320.jpg" alt="Yousef Ebrahimi"><div><b>Yousef</b><span>Founder and data analyst. 10 years in data analytics, SEO and digital marketing.</span></div></div>
+      <div class="asks r3">
+        <div class="ask"><b>For cities</b><span>6-month pilot in one district. City Insights dashboard included.</span></div>
+        <div class="ask"><b>For investors</b><span>We're raising our first round. Open to talk.</span></div>
       </div>
-      <p class="partners r4">Urban mobility teams and cities: <b>let's run a pilot together.</b></p>
+      <p class="proof r4">Live now: web app + Android. Across Europe and Great Britain, 2,000+ cities. iPhone coming.</p>
+      <p class="tagline">The cooler way.</p>
     </div>
-    <div class="qr-box r3"><div id="qr" aria-label="QR code to greenrah.com/app"></div><small>Scan to open GreenRah</small><img src="assets/greenrah-logo-dark.png" alt="GreenRah" class="logo-full"></div>
+    <div class="qr-box r3">
+      <img src="assets/greenrah-logo-white.png" alt="GreenRah" class="logo-full logo-white">
+      <div id="qr" aria-label="QR code to email GreenRah about a pilot"></div>
+      <b>Scan to talk to us</b>
+      <a class="mail" href="mailto:contact@greenrah.com?subject=GreenRah%20pilot">contact@greenrah.com</a>
+    </div>
   </div>
 </section>
 

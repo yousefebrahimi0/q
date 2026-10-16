@@ -2,7 +2,7 @@
    Edit words here. Auto-advance timing is split by word count over 180 s. */
 window.Q_NOTES = [
  { id: 'hook',
-   text: "Winter is coming. But let's talk about heat. In summer 2024, almost 63,000 people in Europe died from heat. Not storms. Not floods. Heat. Europe is ageing: 22 percent of EU residents are 65 or over, those most at risk. And the European Environment Agency expects hot days to double, or almost quadruple, by the end of this century.",
+   text: "Heat killed an estimated 62,775 people in Europe in summer 2024. Maps cannot see it. Twenty-two percent of people in the EU are 65 or older, those most at risk. Hot days above 30 degrees are set to double, or almost quadruple, this century.",
    src: [
      ['62,775 heat-related deaths, Europe, 1 Jun to 30 Sep 2024, 32 countries (95% CI 36,765 to 84,379). Janoš et al., Nature Medicine, 2025', 'https://www.nature.com/articles/s41591-025-03954-7'],
      ['ISGlobal press release: 62,700 heat-related deaths in summer 2024', 'https://www.isglobal.org/en/-/62.700-muertes-asociadas-con-el-calor-del-verano-de-2024'],
@@ -29,12 +29,18 @@ window.Q_NOTES = [
    text: "It is for everyone who walks: commuters, tourists, seniors, parents, disabled people, and runners.",
    src: [] },
  { id: 'competition',
-   text: "We're not the first. Google Maps was built for drivers; it ignores shade and route stress. ShadeMap shows shadows, but it doesn't plan your walk. GreenRah puts weather, shade and routing together.",
-   src: [['ShadeMap: a toolkit to simulate and visualise sunlight and shadow (no walking routes listed in its features).', 'https://shademap.app/about/'], ['Google Maps walking directions do not offer a shade or heat option (public features, Oct 2026).', 'https://support.google.com/maps/answer/144339']] },
+   text: "Some apps show shade. Some show weather. Only GreenRah uses both to choose your route. ALKOO by NAVITIME has shade routes, a shade rate, water spots and cooling shelters. Forecasts and elevation are on Premium. Komoot Premium has route weather, surface type and an elevation profile, but no shade routing. Both inform the user. GreenRah changes the route.",
+   src: [
+     ['ShadeMap: a toolkit to simulate and visualise sunlight and shadow (no walking routes listed in its features).', 'https://shademap.app/about/'],
+     ['Google Maps walking directions do not offer a shade or heat option (public features, Oct 2026).', 'https://support.google.com/maps/answer/144339'],
+     ['ALKOO by NAVITIME product page (shade map and walking routes). Forecasts and elevation on Premium are the Oct 2026 comparison on this slide.', 'https://products.navitime.co.jp/service/alkoo/'],
+     ['Shade route, shade rate, water spots and cooling shelters: BabyTech.jp review, 31 Jul 2025.', 'https://babytech.jp/en/2025/07/ogamari70/'],
+     ['Komoot Premium: weather on route, plus surface type and an elevation profile. No shade routing (public features, Oct 2026).', 'https://www.komoot.com/premium']
+   ] },
  { id: 'business',
-   text: "GreenRah is free, no ads. Later, a 1.99 euro monthly plan adds health features: steps and kilometres. Our main business is City Insights, a dashboard for cities. Where to plant trees. Where people walk for shade. How heat hurts local shops: if people avoid the street from one to five, a shop closing at seven gets afternoon customers for two hours. We're an Estonian company, strictly GDPR compliant.",
-   src: [['Pricing, City Insights and the shop example are the founder\u2019s plan and scenario, not measured data. Company: Greenrah OÜ, Tallinn, Estonia (registry code 17586990, as in the /g deck).', 'https://greenrah.com']] },
+   text: "Six questions for a mayor. Where is it too hot? Where do people walk? Do they choose the cool route? Service gaps: water, green space, GIRA bikes beyond 400 metres. Who is left out, by freguesia? Did the project help? That is next. Walking trips, not surveys. A 24-hour delay. No personal data. Consultant heat studies cost 15 to 80 thousand euros and are old on arrival. The City pack is 6,000 euros a year and updates daily. Example: people avoid the street from one to five, so a shop open until seven only gets the last two hours.",
+   src: [['City Insights figures, the EUR 6,000 City pack, and the EUR 15,000 to 80,000 consultant comparison are the founder\u2019s pitch, not a published price list. The shop line is an example, not measured data. Company: Greenrah OÜ, Tallinn, Estonia (registry code 17586990).', 'https://greenrah.com']] },
  { id: 'close',
-   text: "I'm Yousef, data analyst and founder of GreenRah, with ten years in digital marketing, SEO and data analytics. The web app is live at greenrah.com/app, Android is on Google Play, and iPhone is coming very soon. Install it free. Urban mobility teams and cities: let's talk. The best way isn't the fastest. It's the cooler way.",
-   src: [['Web app', 'https://greenrah.com/app'], ['Android app on Google Play', 'https://play.google.com/store/apps/details?id=com.greenrah.app']] }
+   text: "GreenRah is live today. We're looking for two kinds of partners: cities that want a six-month pilot, and investors who want to help us grow. Scan the code, or find me after this talk.",
+   src: [['Web app', 'https://greenrah.com/app'], ['Android app on Google Play', 'https://play.google.com/store/apps/details?id=com.greenrah.app'], ['Email', 'mailto:contact@greenrah.com?subject=GreenRah%20pilot']] }
 ];
